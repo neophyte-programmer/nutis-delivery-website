@@ -102,6 +102,29 @@ img {
 /*========== Variables Dark theme ==========*/
 /*========== Button Dark/Light ==========*/
 /*=============== REUSABLE CSS CLASSES ===============*/
+.section {
+    padding: 4rem 0 1rem;
+}
+
+.section__title, .section__title-center {
+    font-size: var(--h2-font-size);
+    color: var(--title-color);
+    text-align: center;
+    margin-bottom: var(--mb-1);
+}
+
+.svg__color {
+    fill: var(--first-color);
+}
+
+.svg__blob {
+    fill: var(--first-color-light);
+}
+
+.svg__img {
+    width: 300px;
+    justify-self: center;
+}
 /*=============== LAYOUT ===============*/
 /*=============== HEADER ===============*/
 /*=============== NAV ===============*/
