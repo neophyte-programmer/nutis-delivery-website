@@ -138,11 +138,77 @@ img {
 }
 
 /*=============== HEADER ===============*/
+.header {
+    width: 100%;
+    background-color: var(--body-color);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: var(--z-fixed);
+    transition: .5s; 
+}
+
 /*=============== NAV ===============*/
+.nav {
+    height: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media screen and (max-width: 767px){
+    .nav__menu {
+        position: fixed;
+        background-color: var(--container-color);
+        box-shadow: 0 0 4px rgba(0,0,0,.1);
+        padding: 2.5rem 0;
+        width: 90%;
+        top: -100%;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        transition: .4s;
+        border-radius: 2rem;
+        z-index: var(--z-fixed);
+    }
+
+    .nav__list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 1.5rem;
+    }
+
+    .nav__link, 
+    .nav__toggle {
+        color: var(--title-color);
+        font-weight: var(--font-semi-bold);
+    }
+
+    .nav__toggle {
+        font-size: 1.6rem;
+        cursor: pointer;
+    }
+
+}
+
+.nav__logo-img {
+    width: 9rem;
+    height: 3rem;
+    object-fit: cover;
+}
+
 /* Show menu */
+.show-menu {
+    top: 4rem;
+    transition: .4s;
+}
 /* Change background header */
 /*=============== HOME ===============*/
 /*=============== BUTTONS ===============*/
+.button__header {
+    display: none;
+}
 /*=============== ABOUT ===============*/
 /*=============== SECURITY ===============*/
 /*=============== SERVICES ===============*/
