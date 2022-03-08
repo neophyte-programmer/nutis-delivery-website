@@ -126,6 +126,17 @@ img {
     justify-self: center;
 }
 /*=============== LAYOUT ===============*/
+.container {
+    max-width: 968px;
+    margin-left: var(--mb-1-5);
+    margin-right: var(--mb-1-5); 
+}
+
+.grid {
+    display: grid;
+    gap: 1.5rem;
+}
+
 /*=============== HEADER ===============*/
 /*=============== NAV ===============*/
 /* Show menu */
