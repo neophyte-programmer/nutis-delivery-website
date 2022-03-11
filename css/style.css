@@ -248,6 +248,14 @@ img {
 }
 
 /*=============== SECURITY ===============*/
+.security__container {
+    gap: 2.5rem;
+}
+
+.security__description {
+    text-align: center;
+}
+
 /*=============== SERVICES ===============*/
 /*=============== APP ===============*/
 /*=============== CONTACT ===============*/
