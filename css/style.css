@@ -396,6 +396,8 @@ img {
 .footer__copy {
     margin-top: 6rem;
     text-align: center;
+    font-size: var(--smaller-font-size);
+    color: var(--text-color);
 }
 
 /*=============== SCROLL UP ===============*/
