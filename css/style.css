@@ -220,9 +220,26 @@ img {
 }
 
 /*=============== BUTTONS ===============*/
+.button {
+    display: inline-block;
+    background-color: var(--first-color);
+    color: #1a1a1a;
+    padding: .75rem 1.5rem;
+    border-radius: 3rem;
+    font-weight: var(--font-semi-bold);
+    transition: .3s;
+}
+
+.button:hover {
+    background-color: var(--first-color-alt);
+}
+
 .button__header {
     display: none;
 }
+
+
+
 /*=============== ABOUT ===============*/
 /*=============== SECURITY ===============*/
 /*=============== SERVICES ===============*/
