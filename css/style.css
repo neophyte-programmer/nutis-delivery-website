@@ -234,6 +234,17 @@ img {
     background-color: var(--first-color-alt);
 }
 
+.button--link {
+    background: none;
+    padding: 0;
+    color: var(--title-color);
+}
+
+.button--link:hover {
+    background: transparent;
+    transform: scale(1.1);
+}
+
 .button__header {
     display: none;
 }
