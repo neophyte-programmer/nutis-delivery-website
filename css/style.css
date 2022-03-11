@@ -345,6 +345,59 @@ img {
 }
 
 /*=============== FOOTER ===============*/
+.footer {
+    background-color: var(--first-color-lighten);
+    padding-bottom: 3rem;
+}
+
+.footer__container {
+    row-gap: 2rem;
+}
+
+.footer__logo {
+    display: inline-block;
+}
+
+.footer__logo-img {
+    object-fit: cover;
+    width: 8rem;
+    height: 3rem;
+}
+
+.footer__title {
+    font-size: var(--h3-font-size);
+    margin-bottom: var(--mb-0-75);
+}
+
+.footer__description,
+.footer__link {
+    font-size: var(--small-font-size);
+}
+
+.footer__links {
+    display: grid;
+    row-gap: .5rem;
+}
+
+.footer__link {
+    color: var(--title-color);
+}
+
+.footer__social {
+    display: flex;
+    column-gap: 1.5rem;
+}
+
+.footer__social-link {
+    font-size: 1.25rem;
+    color: var(--title-color);
+}
+
+.footer__copy {
+    margin-top: 6rem;
+    text-align: center;
+}
+
 /*=============== SCROLL UP ===============*/
 /* Show Scroll Up*/
 /*=============== SCROLL BAR ===============*/
