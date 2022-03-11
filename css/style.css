@@ -321,6 +321,29 @@ img {
 
 
 /*=============== CONTACT ===============*/
+.contact__container {
+    padding-bottom: 3rem;
+}
+
+.contact__description {
+    text-align: center;
+}
+
+.contact__content {
+    row-gap: .75rem;
+}
+
+.contact__address {
+    font-size: var(--small-font-size);
+    font-weight: var(--font-semi-bold);
+    color: var(--title-color);
+}
+
+.contact__information {
+    font-weight: initial;
+    color: var(--text-color);
+}
+
 /*=============== FOOTER ===============*/
 /*=============== SCROLL UP ===============*/
 /* Show Scroll Up*/
