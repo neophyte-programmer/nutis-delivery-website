@@ -249,6 +249,17 @@ img {
     display: none;
 }
 
+.button__icon {
+    font-size: 1.5rem;
+}
+
+.button--flex {
+    display: inline-flex;
+    align-items: center;
+    column-gap: .25rem;
+    padding: .75rem 1rem;
+}
+
 /*=============== ABOUT ===============*/
 .about__container {
     gap: 2.5rem;
@@ -289,6 +300,26 @@ img {
 }
 
 /*=============== APP ===============*/
+.app__container {
+    gap: 2.5rem;
+}
+
+.app__data {
+    text-align: center;
+}
+
+.app__description {
+    margin-bottom: var(--mb-1-5);
+}
+
+.app__buttons {
+    display: grid;
+    grid-template-columns: repeat(2, max-content);
+    justify-content: center;
+    gap: .5rem;
+}
+
+
 /*=============== CONTACT ===============*/
 /*=============== FOOTER ===============*/
 /*=============== SCROLL UP ===============*/
