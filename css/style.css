@@ -238,9 +238,15 @@ img {
     display: none;
 }
 
-
-
 /*=============== ABOUT ===============*/
+.about__container {
+    gap: 2.5rem;
+}
+
+.about__data {
+    text-align: center;
+}
+
 /*=============== SECURITY ===============*/
 /*=============== SERVICES ===============*/
 /*=============== APP ===============*/
