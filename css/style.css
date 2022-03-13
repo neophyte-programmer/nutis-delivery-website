@@ -221,6 +221,10 @@ img {
 }
 
 /* Change background header */
+.scroll-header {
+    box-shadow: 0 1px 4px rgba(0,0,0,.3);
+}
+
 /*=============== HOME ===============*/
 .home__container {
     row-gap: 3rem;
