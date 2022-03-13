@@ -18,7 +18,7 @@
     --body-color: hsl(var(--hue), 0%, 100%);
     --container-color: #fff;
     --scroll-bar-color: hsl(var(--hue), 4%, 85%);
-    --scroll-thumb-color: hsl(var(--hue), 4%, 75%);
+    --scroll-thumb-color: hsl(var(--hue), 4%, 70%);
 
     /*========== Font weight ==========*/
     --font-semi-bold: 600;
@@ -450,6 +450,22 @@ img {
     bottom: 3rem;
 }
 /*=============== SCROLL BAR ===============*/
+::-webkit-scrollbar {
+    width: .6rem;
+    border-radius: .5rem;
+    background-color: var(--scroll-bar-color);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--scroll-thumb-color);
+    width: .4rem;
+    border-radius: .5rem;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: var(--text-color-light);
+}
+
 /*=============== MEDIA QUERIES ===============*/
 /* For small devices */
 /* For medium devices */
