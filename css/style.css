@@ -512,6 +512,7 @@ body.dark-theme
 	.section__title-center {
 		text-align: initial;
 	}
+
 	.home__container,
 	.about__container,
 	.security__container,
@@ -521,9 +522,11 @@ body.dark-theme
 	.footer__container {
 		grid-template-columns: repeat(2, 1fr);
 	}
+
 	.home__img {
 		order: 1;
 	}
+
 	.home__container,
 	.about__container,
 	.security__container,
@@ -531,12 +534,14 @@ body.dark-theme
 	.contact__container {
 		align-items: center;
 	}
+
 	.about__data,
 	.security__data,
 	.app__data,
 	.contact__description {
 		text-align: initial;
 	}
+
 	.about__img,
 	.app__img {
 		order: -1;
@@ -554,19 +559,28 @@ body.dark-theme
 	.nav {
 		height: calc(var(--header-height) + 1.5rem);
 	}
+
 	.nav__list {
+        display: flex;
 		flex-direction: row;
 		column-gap: 2.5rem;
 	}
+
+    .nav__link {
+        color: var(--title-color);
+    }
+
 	.nav__toggle {
 		display: none;
 	}
 	.change-theme {
 		position: initial;
 	}
+
 	.home__container {
 		padding: 6rem 0 2rem;
 	}
+
 	.app__buttons {
 		justify-content: initial;
 	}
