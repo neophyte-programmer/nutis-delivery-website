@@ -505,4 +505,41 @@ body.dark-theme
     }
   }
 /* For medium devices */
+@media screen and (min-width: 576px) {
+    .svg__img {
+      width: 100%;
+    }
+    .section__title-center {
+      text-align: initial;
+    }
+    .home__container,
+    .about__container,
+    .security__container,
+    .services__container,
+    .app__container,
+    .contact__container,
+    .footer__container {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    .home__img {
+      order: 1;
+    }
+    .home__container,
+    .about__container,
+    .security__container,
+    .app__container,
+    .contact__container {
+      align-items: center;
+    }
+    .about__data,
+    .security__data,
+    .app__data,
+    .contact__description {
+      text-align: initial;
+    }
+    .about__img,
+    .app__img {
+      order: -1;
+    }
+  }
 /* For large devices */
