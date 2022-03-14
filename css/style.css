@@ -111,17 +111,26 @@ body.dark-theme {
 	--scroll-thumb-color: hsl(var(--hue), 4%, 24%);
 }
 
-body.dark-theme 
 
 /*========== Button Dark/Light ==========*/
 .change-theme {
-	position: absolute;
+    position: absolute;
 	right: 1.5rem;
 	top: 2.2rem;
 	color: var(--title-color);
 	font-size: 1.8rem;
 	cursor: pointer;
 }
+
+.dark-theme .nav__logo-img,
+.dark-theme .footer__logo-img {
+ filter: grayscale(1) invert(1);
+}
+
+.dark-theme .footer {
+    background-color: var(--container-color);
+}
+
 
 /*=============== REUSABLE CSS CLASSES ===============*/
 .section {
