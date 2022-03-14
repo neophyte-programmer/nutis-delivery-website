@@ -490,5 +490,19 @@ body.dark-theme
 
 /*=============== MEDIA QUERIES ===============*/
 /* For small devices */
+@media screen and (max-width: 360px) {
+    .svg__img {
+      width: 100%;
+    }
+    .section {
+      padding: 3.5rem 0 1rem;
+    }
+    .services__img {
+      width: 100px;
+    }
+    .app__buttons {
+      grid-template-columns: max-content;
+    }
+  }
 /* For medium devices */
 /* For large devices */
