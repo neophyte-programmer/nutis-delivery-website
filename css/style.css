@@ -100,7 +100,28 @@ img {
 
 /*=============== THEME ===============*/
 /*========== Variables Dark theme ==========*/
+body.dark-theme {
+    --first-color-light: hsl(var(--hue), var(--sat), 75%);
+    --title-color: hsl(var(--hue), 4%, 95%);
+    --text-color: hsl(var(--hue), 4%, 80%);
+    --body-color: hsl(var(--hue), 8%, 13%);
+    --container-color: hsl(var(--hue), 8%, 16%);
+    --scroll-bar-color: hsl(var(--hue), 4%, 32%);
+    --scroll-thumb-color: hsl(var(--hue), 4%, 24%);
+}
+
+body.dark-theme 
+
 /*========== Button Dark/Light ==========*/
+.change-theme {
+    position: absolute;
+    right: 1.5rem;
+    top: 2.2rem;
+    color: var(--title-color);
+    font-size: 1.8rem;
+    cursor: pointer;
+}
+
 /*=============== REUSABLE CSS CLASSES ===============*/
 .section {
     padding: 4rem 0 1rem;
@@ -193,6 +214,7 @@ img {
 }
 
 .nav__logo-img {
+    background: url('logos/logo-trans-black.png');
     width: 9rem;
     height: 3rem;
     object-fit: cover;
