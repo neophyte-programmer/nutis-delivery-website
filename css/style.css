@@ -111,10 +111,9 @@ body.dark-theme {
 	--scroll-thumb-color: hsl(var(--hue), 4%, 24%);
 }
 
-
 /*========== Button Dark/Light ==========*/
 .change-theme {
-    position: absolute;
+	position: absolute;
 	right: 1.5rem;
 	top: 2.2rem;
 	color: var(--title-color);
@@ -124,13 +123,12 @@ body.dark-theme {
 
 .dark-theme .nav__logo-img,
 .dark-theme .footer__logo-img {
- filter: grayscale(1) invert(1);
+	filter: grayscale(1) invert(1);
 }
 
 .dark-theme .footer {
-    background-color: var(--container-color);
+	background-color: var(--container-color);
 }
-
 
 /*=============== REUSABLE CSS CLASSES ===============*/
 .section {
@@ -570,14 +568,14 @@ body.dark-theme {
 	}
 
 	.nav__list {
-        display: flex;
+		display: flex;
 		flex-direction: row;
 		column-gap: 2.5rem;
 	}
 
-    .nav__link {
-        color: var(--title-color);
-    }
+	.nav__link {
+		color: var(--title-color);
+	}
 
 	.nav__toggle {
 		display: none;
