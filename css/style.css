@@ -1,3 +1,6 @@
+/* 	#fdcb35 - first color - fill="#fdcb35" */
+/* 	#feebb3 - first color light  fill="#feebb3"  */
+
 /*=============== GOOGLE FONTS ===============*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
@@ -19,6 +22,8 @@
 	--container-color: #fff;
 	--scroll-bar-color: hsl(var(--hue), 4%, 85%);
 	--scroll-thumb-color: hsl(var(--hue), 4%, 70%);
+
+	
 
 	/*========== Font weight ==========*/
 	--font-semi-bold: 600;
@@ -326,7 +331,7 @@ body.dark-theme {
 }
 
 .security__description {
-	text-align: center;
+	text-align: left;
 }
 
 /*=============== SERVICES ===============*/
