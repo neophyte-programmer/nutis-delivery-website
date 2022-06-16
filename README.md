@@ -8,23 +8,23 @@ Visit the live version of the website [here](https://nutisdelivery.netlify.app/)
 
 ### Desktop Preview
 <a href="https://tour-ghana-web.netlify.app/">
-    <img src="https://github.com/neophyte-programmer/nutis-delivery-website/blob/main/4.png" />
+    <img src="./4.png" />
 </a>&nbsp;&nbsp;
 <a href="https://tour-ghana-web.netlify.app/">
-    <img src="https://github.com/neophyte-programmer/nutis-delivery-website/blob/main/5.png"  />
+    <img src="./5.png"  />
 </a>&nbsp;&nbsp;
 <a href="https://tour-ghana-web.netlify.app/">
-    <img src="https://github.com/neophyte-programmer/nutis-delivery-website/blob/main/6.png"  />
+    <img src="./6.png"  />
 </a>&nbsp;&nbsp;
 
 ### Phone Preview
 
 <a href="https://tour-ghana-web.netlify.app/">
-    <img src="https://github.com/neophyte-programmer/nutis-delivery-website/blob/main/1.jpeg" style="width: 380px;"  />
+    <img src="./1.jpeg" style="width: 380px;"  />
 </a>&nbsp;&nbsp;
 <a href="https://tour-ghana-web.netlify.app/">
-    <img src="https://github.com/neophyte-programmer/nutis-delivery-website/blob/main/2.jpeg" style="width: 380px;"  />
+    <img src="./2.jpeg" style="width: 380px;"  />
 </a>&nbsp;&nbsp;
 <a href="https://tour-ghana-web.netlify.app/">
-    <img src="https://github.com/neophyte-programmer/nutis-delivery-website/blob/main/3.jpeg" style="width: 380px;"  />
+    <img src="./3.jpeg" style="width: 380px;"  />
 </a>&nbsp;&nbsp;
