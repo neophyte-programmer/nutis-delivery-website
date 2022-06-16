@@ -1,5 +1,5 @@
 # Nuti's Delivery
-This is a website that mirrors the official website of a delivery app. It more or less looks like Glovo but with a UI different design. <br>
+This is a website that mirrors the official website of a delivery app. It more or less looks like the Glovo food delivery app but with a UI different design. <br>
 
 ## Live Site
 Visit the live version of the website [here](https://nutisdelivery.netlify.app/)
